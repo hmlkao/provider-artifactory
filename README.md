@@ -284,12 +284,12 @@ List of all resources of [Terraform provider v12.9.1](https://registry.terraform
 
 ### User
 
-| Resource                     | Supported          | Kind                           |
-|------------------------------|--------------------|--------------------------------|
-| `artifactory_anonymous_user` | :x:                |                                |
-| `artifactory_managed_user`   | :x:                |                                |
-| `artifactory_unmanaged_user` | :x:                |                                |
-| `artifactory_user`           | :x:                |                                |
+| Resource                     | Supported          | Kind            |
+|------------------------------|--------------------|-----------------|
+| `artifactory_anonymous_user` | :heavy_check_mark: | `AnonymousUser` |
+| `artifactory_managed_user`   | :x:                |                 |
+| `artifactory_unmanaged_user` | :x:                |                 |
+| `artifactory_user`           | :x:                |                 |
 
 ### Virtual Repositories
 
